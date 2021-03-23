@@ -1,0 +1,86 @@
+/* line 1, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/components/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+body {
+  font-family: TimesNewRoman;
+  font-size: 18px;
+  color: green;
+}
+
+/* line 16, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+#container {
+  width: 680px;
+  color: red;
+  font-family: TimesNewRoman;
+}
+
+/* line 23, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 28, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+nav li {
+  display: inline-block;
+}
+
+/* line 31, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: lowercase;
+  text-overflow: hidden;
+}
+
+/* line 57, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+}
+
+/* Define mixin with two arguments */
+/* line 67, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.myArticle {
+  border: 1px solid blue;
+}
+
+/* line 71, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.myNotes {
+  border: 3px solid red;
+}
+
+/* line 75, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.button-basic, .button-report, .button-submit {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* line 83, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.button-report {
+  background-color: red;
+}
+
+/* line 88, ../Google Drive/Cursos/Program Dev - BA/Angular/001.Introduccio-Sass/scss/proves.scss */
+.button-submit {
+  background-color: green;
+  color: white;
+}
+
+/*# sourceMappingURL=proves.css.map */
